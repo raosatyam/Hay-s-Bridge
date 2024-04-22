@@ -86,7 +86,7 @@ function calculate_ind() {
 
   if (difference_bt == "__.__") {
   } else if (difference_bt < 0) {
-    var audio = new Audio("../images/audio1_detector.mp3");
+    var audio = new Audio("./images/audio1_detector.mp3");
     audio.play();
     var temp1 = -0.1 * difference_bt;
     temp1 = Math.min(0.5, temp1);
@@ -104,7 +104,7 @@ function calculate_ind() {
       false
     );
   } else if (difference_bt > 0) {
-    var audio = new Audio("../images/audio2_detector.mp3");
+    var audio = new Audio("./images/audio2_detector.mp3");
     audio.play();
     // audio.volume=0.1;
     var temp1 = 0.1 * difference_bt;
