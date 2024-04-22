@@ -499,8 +499,8 @@ slider3.oninput = function () {
 // var output9 = document.getElementById("demo9");
 // output9.innerHTML = induct.value;
 
-document.getElementById("check").onclick = contagem;
-// document.getElementsByTagName("button")[0].onclick = contagem;
+//document.getElementById("check").onclick = contagem;
+document.getElementsByTagName("button")[0].onclick = contagem;
 function contagem() {
   var p_top = document.querySelector("#diagram").getBoundingClientRect().top;
   var p_left = document.querySelector("#diagram").getBoundingClientRect().left;
