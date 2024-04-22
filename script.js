@@ -475,27 +475,27 @@ instance.bind("ready", function () {
     },
   });
 });
-var slider1 = document.getElementById("data1");
-var output1 = document.getElementById("demo1");
-output1.innerHTML = slider1.value;
-var slider2 = document.getElementById("data2");
-var output2 = document.getElementById("demo2");
-output2.innerHTML2 = slider2.value;
-var slider3 = document.getElementById("data3");
-var output3 = document.getElementById("demo3");
-output3.innerHTML3 = slider3.value;
-slider1.oninput = function () {
-  data1 = this.value;
-  output1.innerHTML = this.value;
-};
-slider2.oninput = function () {
-  data2 = this.value;
-  output2.innerHTML = this.value;
-};
-slider3.oninput = function () {
-  data3 = this.value;
-  output3.innerHTML = this.value;
-};
+// var slider1 = document.getElementById("data1");
+// var output1 = document.getElementById("demo1");
+// output1.innerHTML = slider1.value;
+// var slider2 = document.getElementById("data2");
+// var output2 = document.getElementById("demo2");
+// output2.innerHTML2 = slider2.value;
+// var slider3 = document.getElementById("data3");
+// var output3 = document.getElementById("demo3");
+// output3.innerHTML3 = slider3.value;
+// slider1.oninput = function () {
+//   data1 = this.value;
+//   output1.innerHTML = this.value;
+// };
+// slider2.oninput = function () {
+//   data2 = this.value;
+//   output2.innerHTML = this.value;
+// };
+// slider3.oninput = function () {
+//   data3 = this.value;
+//   output3.innerHTML = this.value;
+// };
 // var output9 = document.getElementById("demo9");
 // output9.innerHTML = induct.value;
 
